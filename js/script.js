@@ -1,9 +1,13 @@
 // Simulación de base de datos de productos
 const productos = [
-  { id: 1, nombre: "Fancy Product", precio: 40, cantidad: 10 },
-  { id: 2, nombre: "Special Item", precio: 18, cantidad: 20 },
-  { id: 3, nombre: "Sale Item", precio: 25, cantidad: 15 },
-  { id: 4, nombre: "Popular Item", precio: 40, cantidad: 5 },
+  { id: 1, nombre: "Combo Teclado + Mouse", precio: 40, cantidad: 10 },
+  { id: 2, nombre: "Case", precio: 65, cantidad: 20 },
+  { id: 3, nombre: "CPU i9", precio: 65, cantidad: 15 },
+  { id: 4, nombre: "Proyector", precio: 40, cantidad: 10 },
+  { id: 5, nombre: "Hub Tipo C", precio: 35, cantidad: 20 },
+  { id: 6, nombre: "Monitor", precio: 120, cantidad: 5 },
+  { id: 7, nombre: "Ram", precio: 180, cantidad: 100 },
+  { id: 8, nombre: "SSD", precio: 40, cantidad: 100 },
   // Añade más productos según corresponda
 ];
 
@@ -31,7 +35,6 @@ function agregarAlCarrito(idProducto) {
   } else {
     carrito.push({ ...productoEncontrado, cantidad: 1 });
   }
-  alert(`${productoEncontrado.nombre} añadido al carrito.`);
   actualizarCarrito();
 }
 
