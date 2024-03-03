@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Acerca de - DSP TECHNOLOGY</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#!">DSP TECHNOLOGY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contáctanos</a></li>
+
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-info" type="submit">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrito Modal -->
+    <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carritoModalLabel">Carrito de Compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="carritoModalBody">
+                            <!-- Los productos del carrito irán aquí -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="confirmarCompra()">Confirmar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Contenido Principal -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Historia de la Empresa -->
+            <div>
+                <h2>Historia de la Empresa</h2>
+                <p>Desde nuestra fundación en el año 2001, DSP TECHNOLOGY ha sido un pionero en el mundo de la
+                    tecnología.
+                    Comenzamos como una pequeña tienda de reparaciones y hemos evolucionado hasta convertirnos en un
+                    líder
+                    del mercado en electrónica y tecnología de consumo.</p>
+            </div>
+            <!-- Misión y Visión -->
+            <div>
+                <h2>Misión y Visión</h2>
+                <p>Nuestra misión es brindar productos tecnológicos innovadores y de alta calidad, asegurando siempre la
+                    satisfacción del cliente. Nuestra visión es ser reconocidos como la principal fuente de soluciones
+                    tecnológicas a nivel mundial.</p>
+            </div>
+            <!-- Nuestro Equipo -->
+            <div>
+                <h2>Nuestro Equipo</h2>
+                <p>Contamos con un equipo diverso y talentoso, desde ingenieros expertos hasta profesionales de atención
+                    al
+                    cliente, todos dedicados a brindar la mejor experiencia a nuestros clientes.</p>
+            </div>
+            <!-- Valores de la Empresa -->
+            <div>
+                <h2>Valores de la Empresa</h2>
+                <p>Innovación, integridad, y compromiso son los pilares de nuestra empresa. Estos valores nos guían en
+                    cada
+                    decisión y acción que tomamos.</p>
+            </div>
+
+            <!-- Contacto -->
+            <div>
+                <h2>Contacto</h2>
+                <p>Puedes encontrarnos en nuestra tienda principal o contactarnos a través de nuestro correo
+                    electrónico:
+                    contacto@dsptechnology.es. También estamos activos en redes sociales.</p>
+            </div>
+        </div>
+        <!-- Sección Nuestro Equipo -->
+        <div class="container px-4 px-lg-5 mt-5">
+            <h2 class="text-center">Nuestro Equipo de Desarrolladores</h2>
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- Tarjeta del Desarrollador 1 -->
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Imagen del Desarrollador -->
+                        <img class="card-img-top" src="../images/default-user-icon.jpg" alt="Desarrollador 1" />
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Nombre del Desarrollador -->
+                                <h5 class="fw-bolder">Ana García</h5>
+                                <!-- Rol o Especialidad -->
+                                <p>Desarrolladora Front-End</p>
+                                <!-- Breve descripción o cita -->
+                                <p class="small">"Apasionada por la creación de experiencias de usuario inolvidables."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta del Desarrollador 2 -->
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Imagen del Desarrollador -->
+                        <img class="card-img-top" src="../images/default-user-icon.jpg" alt="Desarrollador 2" />
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Nombre del Desarrollador -->
+                                <h5 class="fw-bolder">Carlos Pérez</h5>
+                                <!-- Rol o Especialidad -->
+                                <p>Desarrollador Back-End</p>
+                                <!-- Breve descripción o cita -->
+                                <p class="small">"Enfocado en construir la lógica detrás de la tecnología."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Añade más tarjetas según sea necesario -->
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; DPS TECHNOLOGY 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+
+
+    <!-- Core theme JS-->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
