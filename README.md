@@ -15,6 +15,9 @@ Para utilizar este proyecto, simplemente sigue los siguientes pasos:
 - jspdf 2.3.1
 - bootstrap 5.2.3
 
+## Enlace de video
+https://1drv.ms/v/s!Ahsj78CYbncClCDsxvTfyLqNPSOW?e=JM0Ces
+
 ## Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, por favor, crea un 'issue' o envía un 'pull request'.
 
