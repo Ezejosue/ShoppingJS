@@ -18,6 +18,9 @@ Para utilizar este proyecto, simplemente sigue los siguientes pasos:
 ## Enlace de video
 https://1drv.ms/v/s!Ahsj78CYbncClCDsxvTfyLqNPSOW?e=JM0Ces
 
+## Enlace a Trello
+https://trello.com/invite/b/1ffmix7g/ATTIcdd30cff430c9af908cdb13e7e21a28bD5FAB851/proyectomedi-plus
+
 ## Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, por favor, crea un 'issue' o envía un 'pull request'.
 
